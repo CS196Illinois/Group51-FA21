@@ -44,9 +44,12 @@ background_spectogram = mask_back * full_spectogram
 
 # creates a digital spectogram variable of the foreground
 digital_foreground = foreground_spectogram * phase
+digital_background = background_spectogram * phase
 
 # transforms the digital spectogram to audio file
 audio_foreground = librosa.istft(digital_foreground)
+audio_background = librosa.istft(digital_background)
 
 # writes to the given file path with the audio file at the given sampling rate
 sf.write('output/OjuSpeakingForeground.wav', audio_foreground, sampling_rate)
+sf.write('output/OjuSpeakingBackground.wav', audio_background, sampling_rate)
