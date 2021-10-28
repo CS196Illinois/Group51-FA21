@@ -3,7 +3,7 @@ from scipy.io import wavfile
 
 import background_mask_librosa
 import spectral_gating
-import ravdesscsv
+import wav_to_csv
 
 import pydub
 import librosa
@@ -41,3 +41,5 @@ cleaned_audio = IPython.display.Audio(data=output, rate=44100)
 
 with open("output/" + input_direc + "BackgroundRemoved.wav", 'wb') as f:
     f.write(cleaned_audio.data)
+
+wav_to_csv.wav2csv("output/" + input_direc + "BackgroundRemoved.wav")
