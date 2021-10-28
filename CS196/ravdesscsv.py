@@ -10,8 +10,10 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from torch import nn
 import torch.nn.functional as F
-#from torch.utils.data import DataLoader
-#from torchvision import datasets, transforms
+
+# from torch.utils.data import DataLoader
+# from torchvision import datasets, transforms
+
 import torch.utils.data as data_utils
 
 df = pd.read_csv('/Users/balajisampath/Desktop/features.csv')
@@ -20,13 +22,16 @@ labels = df['labels']
 X = features
 y = labels
 
+
 def label2idx(cols):
     mapping = dict()
     for i, emotion in enumerate(cols):
         mapping[emotion] = i
     return mapping
 
-#X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.33)
+# X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.33)
+
+
 print(df)
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 print('Using {} device'.format(device))
@@ -41,8 +46,10 @@ y = torch.tensor(df['labels']).long().to(device)
 def df_to_tensor(df):
     return torch.tensor(df.values).float().to(device)
 
+
 train = data_utils.TensorDataset(df_to_tensor(X), y)
 train_loader = data_utils.DataLoader(train, batch_size=16, shuffle=True)
+
 
 class Network(nn.Module):
     def __init__(self):
@@ -65,6 +72,7 @@ class Network(nn.Module):
         x = self.softmax(x)
 
         return x
+
 
 model = Network().to(device)
 print(model)
@@ -101,5 +109,3 @@ for e in range(epochs):
         running_loss += loss.item()
     else:
         print(f"Training loss: {running_loss / len(train_loader)}")
-
-
