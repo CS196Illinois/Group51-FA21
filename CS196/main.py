@@ -10,7 +10,7 @@ import librosa
 import IPython
 
 
-input_dir = "UtkarshSpeaking"
+input_dir = "OjuSpeaking"
 
 # convert m4a file to .wav
 sound = pydub.AudioSegment.from_file("input/" + input_dir + ".m4a")

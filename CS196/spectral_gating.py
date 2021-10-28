@@ -1,5 +1,3 @@
-import IPython
-from scipy.io import wavfile
 import scipy.signal
 import numpy as np
 import librosa
