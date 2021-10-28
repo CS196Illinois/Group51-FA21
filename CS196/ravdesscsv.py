@@ -17,7 +17,7 @@ import torch.nn.functional as F
 import torch.utils.data as data_utils
 
 df = pd.read_csv('/Users/balajisampath/Desktop/features.csv')
-features = df[['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19']]
+features = df.iloc[:, :19]
 labels = df['labels']
 X = features
 y = labels
