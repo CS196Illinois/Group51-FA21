@@ -6,21 +6,6 @@ import librosa
 
 
 # from: https://timsainburg.com/noise-reduction-python.html
-# input original speaking audio, retrieve data and rate of recording
-local_wave = "input/OjuSpeaking.wav"
-rate, data = wavfile.read(local_wave)
-data = data / 32768
-
-# input solely background noise from background_mask_librosa.py, retrieve data and rate of recording
-noise = "output/OjuSpeakingBackground.wav"
-rateN, dataN = wavfile.read(noise)
-dataN = dataN / 32768
-
-# delegate noise clip as extracted background noise and original audio as audio_clip_band_limited
-noise_clip = dataN
-audio_clip_band_limited = data
-
-
 # fourier transformation given necessary parameters, finds frequency and phase over specified intervals in a spectrogram
 def _stft(y, n_fft, hop_length, win_length):
     return librosa.stft(y=y, n_fft=n_fft, hop_length=hop_length, win_length=win_length)
@@ -117,11 +102,3 @@ def removeNoise(audio_clip, noise_clip, n_grad_freq=2, n_grad_time=4, n_fft=2048
     )
 
     return recovered_signal
-
-
-output = removeNoise(audio_clip=audio_clip_band_limited, noise_clip=noise_clip)
-
-cleaned_audio = IPython.display.Audio(data=output, rate=44100)
-
-with open('output/OjuBackgroundRemoved.wav', 'wb') as f:
-    f.write(cleaned_audio.data)
