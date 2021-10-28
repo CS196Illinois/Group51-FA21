@@ -3,8 +3,6 @@ from scipy.io import wavfile
 import scipy.signal
 import numpy as np
 import librosa
-import time
-from datetime import timedelta as td
 
 
 # from: https://timsainburg.com/noise-reduction-python.html
