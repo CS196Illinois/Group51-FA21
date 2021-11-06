@@ -1,15 +1,6 @@
-import numpy as np
 import torch
-import matplotlib as plt
-import pydub
-import librosa
-import csv
-import torchaudio
-import os
 import pandas as pd
-from sklearn.model_selection import train_test_split
 from torch import nn
-import torch.nn.functional as F
 
 # from torch.utils.data import DataLoader
 # from torchvision import datasets, transforms
@@ -21,7 +12,6 @@ features = df[['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12
 labels = df['labels']
 X = features
 y = labels
-
 
 def label2idx(cols):
     mapping = dict()
@@ -91,8 +81,26 @@ criterion = nn.NLLLoss()
 # F.cross_entropy()
 ##########
 # Optimizers require the parameters to optimize and a learning rate
-optimizer = torch.optim.SGD(model.parameters(), lr=0.003)
+optimizer = tooptimizer = torch.optim.SGD(model.parameters(), lr=0.003)
 epochs = 200
+for e in range(epochs):
+    running_loss = 0
+    for audios, labels in train_loader:
+        # Flatten MNIST images into a 784 long vector
+        # images = images.view(images.shape[0], -1)
+
+        # Training pass
+        optimizer.zero_grad()
+        output = model(audios)
+        loss = criterion(output, labels)
+        loss.backward()
+        optimizer.step()
+
+        running_loss += loss.item()
+    else:
+        print(f"Training loss: {running_loss / len(train_loader)}")
+torch.optim.SGD(model.parameters(), lr=0.003)
+epochs = 30
 for e in range(epochs):
     running_loss = 0
     for audios, labels in train_loader:
