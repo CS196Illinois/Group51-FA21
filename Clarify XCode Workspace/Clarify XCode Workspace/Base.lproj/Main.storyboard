@@ -40,7 +40,7 @@
             <objects>
                 <viewController id="x7B-F2-K1e" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="odz-jz-ZJX">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="lz1-qy-e1M"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -55,7 +55,7 @@
             <objects>
                 <viewController id="en0-LU-zh9" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TWd-YA-xxN">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="qD3-gs-Sda"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -70,7 +70,7 @@
             <objects>
                 <viewController id="3oL-0x-OeJ" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bxr-ze-Xq3">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="vzz-Zl-pkm"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -85,7 +85,7 @@
             <objects>
                 <viewController id="Txr-9T-bHu" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ieu-bS-DiJ">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Step 1:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aBK-9a-WIt">
@@ -100,10 +100,27 @@
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m42-DW-orZ">
+                                <rect key="frame" x="116" y="668" width="158" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Select Audio">
+                                            <attributes>
+                                                <font key="NSFont" size="24" name="Helvetica"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="gt1-Z1-Lth"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <segue destination="x7B-F2-K1e" kind="showDetail" identifier="SecondViewSegue" destinationCreationSelector="selectAudioButtonPressed:" id="Fm0-98-BdB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J0S-Nm-KAR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
