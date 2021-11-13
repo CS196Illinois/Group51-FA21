@@ -31,15 +31,18 @@ print(real_labels)
 df['labels'] = df['labels'].apply(lambda x: real_labels[x])
 print(df['labels'])
 y = torch.tensor(df['labels']).long().to(device)
-
+print(type(y))
+train_size = int(0.8 * len(X))
+test_size = len(X) - train_size
 
 def df_to_tensor(df):
     return torch.tensor(df.values).float().to(device)
 
-
 train = data_utils.TensorDataset(df_to_tensor(X), y)
-train_loader = data_utils.DataLoader(train, batch_size=16, shuffle=True)
 
+train_dataset, test_dataset = torch.utils.data.random_split(train, [train_size, test_size])
+
+train_loader = data_utils.DataLoader(train_dataset, batch_size=16, shuffle=True)
 
 class Network(nn.Module):
     def __init__(self):
@@ -82,7 +85,7 @@ criterion = nn.NLLLoss()
 ##########
 # Optimizers require the parameters to optimize and a learning rate
 optimizer = tooptimizer = torch.optim.SGD(model.parameters(), lr=0.003)
-epochs = 200
+epochs = 20
 for e in range(epochs):
     running_loss = 0
     for audios, labels in train_loader:
@@ -93,6 +96,8 @@ for e in range(epochs):
         optimizer.zero_grad()
         output = model(audios)
         loss = criterion(output, labels)
+
+
         loss.backward()
         optimizer.step()
 
@@ -117,3 +122,34 @@ for e in range(epochs):
         running_loss += loss.item()
     else:
         print(f"Training loss: {running_loss / len(train_loader)}")
+
+
+
+
+# Print about testing
+print('Starting testing')
+
+# Saving the model
+save_path = './mlp.pth'
+torch.save(model.state_dict(), save_path)
+
+# Testing loop
+correct, total = 0, 0
+with torch.no_grad():
+    # Iterate over the test data and generate predictions
+    for i, data in enumerate(test_dataset, 0):
+        # Get inputs
+        features, labels = data
+
+        # Generate outputs
+        print(type(model))
+        print(type(features))
+        outputs = model(features)
+
+        # Set total and correct
+        _, predicted = torch.max(outputs.data, 1)
+        total += labels.size(0)
+        correct += (predicted == labels).sum().item()
+
+    # Print accuracy
+    print('Accuracy: %d %%' % (100 * correct / total))
