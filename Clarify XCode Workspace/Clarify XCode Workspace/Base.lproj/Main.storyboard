@@ -100,20 +100,25 @@
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m42-DW-orZ">
-                                <rect key="frame" x="116" y="668" width="158" height="42"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m42-DW-orZ">
+                                <rect key="frame" x="84" y="663" width="222" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <buttonConfiguration key="configuration" style="tinted">
                                     <attributedString key="attributedTitle">
                                         <fragment content="Select Audio">
                                             <attributes>
                                                 <font key="NSFont" size="24" name="Helvetica"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
                                 </buttonConfiguration>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="badge.plus.radiowaves.right" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="jIa-2b-7NT">
+                                <rect key="frame" x="266" y="669" width="27" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="gt1-Z1-Lth"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -124,10 +129,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J0S-Nm-KAR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="808.69565217391312" y="105.80357142857143"/>
+            <point key="canvasLocation" x="807.69230769230762" y="105.21327014218009"/>
         </scene>
     </scenes>
     <resources>
+        <image name="badge.plus.radiowaves.right" catalog="system" width="128" height="102"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

@@ -16,6 +16,7 @@
 		92A8BA502730C6BA00CDB6B3 /* Clarify_XCode_WorkspaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8BA4F2730C6BA00CDB6B3 /* Clarify_XCode_WorkspaceTests.swift */; };
 		92A8BA5A2730C6BA00CDB6B3 /* Clarify_XCode_WorkspaceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8BA592730C6BA00CDB6B3 /* Clarify_XCode_WorkspaceUITests.swift */; };
 		92A8BA5C2730C6BA00CDB6B3 /* Clarify_XCode_WorkspaceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8BA5B2730C6BA00CDB6B3 /* Clarify_XCode_WorkspaceUITestsLaunchTests.swift */; };
+		EB8CC03B27403375002ADF92 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8CC03A27403375002ADF92 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		92A8BA552730C6BA00CDB6B3 /* Clarify XCode WorkspaceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Clarify XCode WorkspaceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		92A8BA592730C6BA00CDB6B3 /* Clarify_XCode_WorkspaceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clarify_XCode_WorkspaceUITests.swift; sourceTree = "<group>"; };
 		92A8BA5B2730C6BA00CDB6B3 /* Clarify_XCode_WorkspaceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clarify_XCode_WorkspaceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EB8CC03A27403375002ADF92 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +104,11 @@
 				92A8BA382730C6B600CDB6B3 /* AppDelegate.swift */,
 				92A8BA3A2730C6B600CDB6B3 /* SceneDelegate.swift */,
 				92A8BA3C2730C6B600CDB6B3 /* ViewController.swift */,
-				92A8BA3E2730C6B600CDB6B3 /* Main.storyboard */,
 				92A8BA412730C6B900CDB6B3 /* Assets.xcassets */,
+				92A8BA3E2730C6B600CDB6B3 /* Main.storyboard */,
 				92A8BA432730C6B900CDB6B3 /* LaunchScreen.storyboard */,
 				92A8BA462730C6B900CDB6B3 /* Info.plist */,
+				EB8CC03A27403375002ADF92 /* ContentView.swift */,
 			);
 			path = "Clarify XCode Workspace";
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			files = (
 				92A8BA3D2730C6B600CDB6B3 /* ViewController.swift in Sources */,
 				92A8BA392730C6B600CDB6B3 /* AppDelegate.swift in Sources */,
+				EB8CC03B27403375002ADF92 /* ContentView.swift in Sources */,
 				92A8BA3B2730C6B600CDB6B3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
