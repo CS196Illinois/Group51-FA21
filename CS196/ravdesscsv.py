@@ -44,52 +44,46 @@ train_dataset, test_dataset = torch.utils.data.random_split(train, [train_size, 
 
 train_loader = data_utils.DataLoader(train_dataset, batch_size=16, shuffle=True)
 
-"""class Network(nn.Module):
-    def __init__(self):
-        super().__init__()
 
-        # Inputs to hidden layer linear transformation
-        self.hidden = nn.Linear(20, 10)
-        # Output layer, 10 units - one for each digit
-        self.output = nn.Linear(10, CLASSES)
-
-        # Define sigmoid activation and softmax output
-        self.softmax = nn.LogSoftmax(dim=1)
-        self.sigmoid = nn.Sigmoid()
-
-    def forward(self, x):
-        # Pass the input tensor through each of our operations
-        x = self.hidden(x)
-        x = self.sigmoid(x)
-        x = self.output(x)
-        x = self.softmax(x)
-
-        return x
-"""
 class RNN(nn.Module):
-    def __init__(self, input_size, hidden_size, output_size):
+    def __init__(self, input_size, output_size, hidden_dim, n_layers):
         super(RNN, self).__init__()
 
-        self.hidden_size = hidden_size
+        # Defining some parameters
+        self.hidden_dim = hidden_dim
+        self.n_layers = n_layers
 
-        self.i2h = nn.Linear(input_size + hidden_size, hidden_size)
-        self.i2o = nn.Linear(input_size + hidden_size, output_size)
-        self.softmax = nn.LogSoftmax(dim=1)
+        # Defining the layers
+        # RNN Layer
+        self.rnn = nn.RNN(input_size, hidden_dim, n_layers, batch_first=True)
+        # Fully connected layer
+        self.fc = nn.Linear(hidden_dim, output_size)
 
-    def forward(self, input, hidden):
-        combined = torch.cat((input, hidden), 1)
-        hidden = self.i2h(combined)
-        output = self.i2o(combined)
-        output = self.softmax(output)
-        return output, hidden
+    def forward(self, x):
+        batch_size = x.size(0)
 
-    def initHidden(self):
-        return torch.zeros(1, self.hidden_size)
+        # Initializing hidden state for first input using method defined below
+        hidden = self.init_hidden(batch_size)
+
+        # Passing in the input and hidden state into the model and obtaining outputs
+        out, hidden = self.rnn(x, hidden)
+
+        # Reshaping the outputs such that it can be fit into the fully connected layer
+        out = out.contiguous().view(-1, self.hidden_dim)
+        out = self.fc(out)
+
+        return out, hidden
+
+    def init_hidden(self, batch_size):
+        # This method generates the first hidden state of zeros which we'll use in the forward pass
+        # We'll send the tensor holding the hidden state to the device we specified earlier as well
+        hidden = torch.zeros(self.n_layers, batch_size, self.hidden_dim)
+        return hidden
+
 
 n_hidden = 128
-Network = RNN(20, n_hidden, CLASSES)
+Network = RNN(20, n_hidden, CLASSES, 1)
 model = Network().to(device)
-print(model)
 
 """model = nn.Sequential(nn.Linear(784, 128),
                       nn.ReLU(),
@@ -115,6 +109,7 @@ for e in range(epochs):
 
         # Training pass
         optimizer.zero_grad()
+        hidden = model.initHidden()
         output = model(audios)
         loss = criterion(output, labels)
 
@@ -135,6 +130,7 @@ for e in range(epochs):
 
         # Training pass
         optimizer.zero_grad()
+        hidden = MyRNN.initHidden()
         output = model(audios)
         loss = criterion(output, labels)
         loss.backward()
@@ -143,9 +139,6 @@ for e in range(epochs):
         running_loss += loss.item()
     else:
         print(f"Training loss: {running_loss / len(train_loader)}")
-
-
-
 
 # Print about testing
 print('Starting testing')
@@ -176,23 +169,26 @@ with torch.no_grad():
     print('Accuracy: %d %%' % (100 * correct / total))
 
 """
-class RNN(nn.Module):
-    def __init__(self, input_size, hidden_size, output_size):
-        super(RNN, self).__init__()
+OLD STUFF if we need later
+class Network(nn.Module):
+    def __init__(self):
+        super().__init__()
 
-        self.hidden_size = hidden_size
+        # Inputs to hidden layer linear transformation
+        self.hidden = nn.Linear(20, 10)
+        # Output layer, 10 units - one for each digit
+        self.output = nn.Linear(10, CLASSES)
 
-        self.i2h = nn.Linear(input_size + hidden_size, hidden_size)
-        self.i2o = nn.Linear(input_size + hidden_size, output_size)
+        # Define sigmoid activation and softmax output
         self.softmax = nn.LogSoftmax(dim=1)
+        self.sigmoid = nn.Sigmoid()
 
-    def forward(self, input, hidden):
-        combined = torch.cat((input, hidden), 1)
-        hidden = self.i2h(combined)
-        output = self.i2o(combined)
-        output = self.softmax(output)
-        return output, hidden
+    def forward(self, x):
+        # Pass the input tensor through each of our operations
+        x = self.hidden(x)
+        x = self.sigmoid(x)
+        x = self.output(x)
+        x = self.softmax(x)
 
-    def initHidden(self):
-        return torch.zeros(1, self.hidden_size)
+        return x
 """
