@@ -11,7 +11,16 @@ struct AudioChooserView: View {
     
     @ObservedObject var audioRecorder: AudioRecorder
         
+    //list of previous recordings
+    //start and stop button
     var body: some View {
+        
+        VStack {
+                    RecordingsList(audioRecorder: audioRecorder)
+                    //...
+                }
+        
+        
         VStack {
             if audioRecorder.recording == false {
                 Button(action: {print("Start recording")}) {
