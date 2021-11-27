@@ -9,18 +9,24 @@
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.YourName.YourAppName</string>
+	<string>com.team51.Clarify</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>UILaunchScreen</key>
 	<dict>
+		<key>UIImageRespectsSafeAreaInsets</key>
+		<true/>
+		<key>Logo</key>
+		<string></string>
+		<key>UIColorName</key>
+		<string></string>
 		<key>UILaunchScreen</key>
 		<dict/>
 	</dict>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
 	<key>CFBundleName</key>
-	<string>YourAppName</string>
+	<string>com.team51</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>UISupportedInterfaceOrientations~iphone</key>
@@ -30,7 +36,7 @@
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>CFBundleExecutable</key>
-	<string>YourAppName</string>
+	<string>Clarify</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
