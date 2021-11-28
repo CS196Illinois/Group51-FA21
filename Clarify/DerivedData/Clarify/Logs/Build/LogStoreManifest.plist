@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>126E0508-C789-4E2D-AD5B-0D0088F74306</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>126E0508-C789-4E2D-AD5B-0D0088F74306.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Clarify project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Clarify (iOS)</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Clarify (iOS)</string>
+			<key>timeStartedRecording</key>
+			<real>659735353.44232798</real>
+			<key>timeStoppedRecording</key>
+			<real>659735355.06046796</real>
+			<key>title</key>
+			<string>Build Clarify (iOS)</string>
+			<key>uniqueIdentifier</key>
+			<string>126E0508-C789-4E2D-AD5B-0D0088F74306</string>
+		</dict>
+		<key>1EBFEE72-E343-4834-AA32-876D88ADC931</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>1EBFEE72-E343-4834-AA32-876D88ADC931.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Clarify project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Clarify (iOS)</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Clarify (iOS)</string>
+			<key>timeStartedRecording</key>
+			<real>659735091.39369595</real>
+			<key>timeStoppedRecording</key>
+			<real>659735091.80132699</real>
+			<key>title</key>
+			<string>Build Clarify (iOS)</string>
+			<key>uniqueIdentifier</key>
+			<string>1EBFEE72-E343-4834-AA32-876D88ADC931</string>
+		</dict>
+		<key>32282B83-5FF9-456F-B772-016ED5A7DACA</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>32282B83-5FF9-456F-B772-016ED5A7DACA.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Clarify project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Clarify (iOS)</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Clarify (iOS)</string>
+			<key>timeStartedRecording</key>
+			<real>659688458.999066</real>
+			<key>timeStoppedRecording</key>
+			<real>659688461.75020504</real>
+			<key>title</key>
+			<string>Build Clarify (iOS)</string>
+			<key>uniqueIdentifier</key>
+			<string>32282B83-5FF9-456F-B772-016ED5A7DACA</string>
+		</dict>
+		<key>42165AE2-F6DD-49BE-8B35-25EC948843C0</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>42165AE2-F6DD-49BE-8B35-25EC948843C0.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Clarify project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Clarify (iOS)</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Clarify (iOS)</string>
+			<key>timeStartedRecording</key>
+			<real>659735087.25328696</real>
+			<key>timeStoppedRecording</key>
+			<real>659735087.68983495</real>
+			<key>title</key>
+			<string>Build Clarify (iOS)</string>
+			<key>uniqueIdentifier</key>
+			<string>42165AE2-F6DD-49BE-8B35-25EC948843C0</string>
+		</dict>
+		<key>48270AE9-C5CA-4405-AA65-ACDC1381C700</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>48270AE9-C5CA-4405-AA65-ACDC1381C700.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Clarify project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Clarify (iOS)</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Clarify (iOS)</string>
+			<key>timeStartedRecording</key>
+			<real>659735895.314165</real>
+			<key>timeStoppedRecording</key>
+			<real>659735898.11437094</real>
+			<key>title</key>
+			<string>Build Clarify (iOS)</string>
+			<key>uniqueIdentifier</key>
+			<string>48270AE9-C5CA-4405-AA65-ACDC1381C700</string>
+		</dict>
+		<key>58CE4120-1CE3-4E03-98F7-AC3D9310C9C3</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>58CE4120-1CE3-4E03-98F7-AC3D9310C9C3.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Clarify project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Clarify (iOS)</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Clarify (iOS)</string>
+			<key>timeStartedRecording</key>
+			<real>659735636.30975902</real>
+			<key>timeStoppedRecording</key>
+			<real>659735637.15559494</real>
+			<key>title</key>
+			<string>Build Clarify (iOS)</string>
+			<key>uniqueIdentifier</key>
+			<string>58CE4120-1CE3-4E03-98F7-AC3D9310C9C3</string>
+		</dict>
+		<key>694371C9-2056-483B-B9DC-0781E6959B6A</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>694371C9-2056-483B-B9DC-0781E6959B6A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Clarify project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Clarify (iOS)</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Clarify (iOS)</string>
+			<key>timeStartedRecording</key>
+			<real>659735070.34027398</real>
+			<key>timeStoppedRecording</key>
+			<real>659735071.07915902</real>
+			<key>title</key>
+			<string>Build Clarify (iOS)</string>
+			<key>uniqueIdentifier</key>
+			<string>694371C9-2056-483B-B9DC-0781E6959B6A</string>
+		</dict>
+		<key>70BFA260-AA04-4A6E-8887-C4BDEDACE648</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>70BFA260-AA04-4A6E-8887-C4BDEDACE648.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Clarify project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Clarify (iOS)</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Clarify (iOS)</string>
+			<key>timeStartedRecording</key>
+			<real>659735817.60524595</real>
+			<key>timeStoppedRecording</key>
+			<real>659735817.76109397</real>
+			<key>title</key>
+			<string>Build Clarify (iOS)</string>
+			<key>uniqueIdentifier</key>
+			<string>70BFA260-AA04-4A6E-8887-C4BDEDACE648</string>
+		</dict>
+		<key>78D40529-9D68-4CD0-A251-4B95F5438681</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>78D40529-9D68-4CD0-A251-4B95F5438681.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Clarify project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Clarify (iOS)</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Clarify (iOS)</string>
+			<key>timeStartedRecording</key>
+			<real>659736224.85259902</real>
+			<key>timeStoppedRecording</key>
+			<real>659736243.20553696</real>
+			<key>title</key>
+			<string>Build Clarify (iOS)</string>
+			<key>uniqueIdentifier</key>
+			<string>78D40529-9D68-4CD0-A251-4B95F5438681</string>
+		</dict>
+		<key>838202B7-B9D2-462C-ADC2-FD11B54FB7CE</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>838202B7-B9D2-462C-ADC2-FD11B54FB7CE.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Clarify project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Clarify (iOS)</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Clarify (iOS)</string>
+			<key>timeStartedRecording</key>
+			<real>659735395.14554501</real>
+			<key>timeStoppedRecording</key>
+			<real>659735395.48854101</real>
+			<key>title</key>
+			<string>Build Clarify (iOS)</string>
+			<key>uniqueIdentifier</key>
+			<string>838202B7-B9D2-462C-ADC2-FD11B54FB7CE</string>
+		</dict>
+		<key>8B2DF970-28A0-4DAA-BA15-B6E64229B876</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>8B2DF970-28A0-4DAA-BA15-B6E64229B876.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Clarify project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Clarify (iOS)</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Clarify (iOS)</string>
+			<key>timeStartedRecording</key>
+			<real>659736428.39481604</real>
+			<key>timeStoppedRecording</key>
+			<real>659736428.43797398</real>
+			<key>title</key>
+			<string>Build Clarify (iOS)</string>
+			<key>uniqueIdentifier</key>
+			<string>8B2DF970-28A0-4DAA-BA15-B6E64229B876</string>
+		</dict>
+		<key>8C6ACE8A-EBC7-46EA-8F99-DC411F05B903</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>8C6ACE8A-EBC7-46EA-8F99-DC411F05B903.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Clarify project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Clarify (iOS)</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Clarify (iOS)</string>
+			<key>timeStartedRecording</key>
+			<real>659735684.16139102</real>
+			<key>timeStoppedRecording</key>
+			<real>659735687.71550405</real>
+			<key>title</key>
+			<string>Build Clarify (iOS)</string>
+			<key>uniqueIdentifier</key>
+			<string>8C6ACE8A-EBC7-46EA-8F99-DC411F05B903</string>
+		</dict>
+		<key>92CF35B8-F62F-42FD-931E-7A61AEE514AD</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>92CF35B8-F62F-42FD-931E-7A61AEE514AD.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Clarify project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Clarify (iOS)</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Clarify (iOS)</string>
+			<key>timeStartedRecording</key>
+			<real>659736526.36168301</real>
+			<key>timeStoppedRecording</key>
+			<real>659736526.41021895</real>
+			<key>title</key>
+			<string>Build Clarify (iOS)</string>
+			<key>uniqueIdentifier</key>
+			<string>92CF35B8-F62F-42FD-931E-7A61AEE514AD</string>
+		</dict>
+		<key>9A69E938-5C0A-4717-9758-881C05845A55</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>9A69E938-5C0A-4717-9758-881C05845A55.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Clarify project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Clarify (iOS)</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Clarify (iOS)</string>
+			<key>timeStartedRecording</key>
+			<real>659735391.30561602</real>
+			<key>timeStoppedRecording</key>
+			<real>659735392.28006399</real>
+			<key>title</key>
+			<string>Build Clarify (iOS)</string>
+			<key>uniqueIdentifier</key>
+			<string>9A69E938-5C0A-4717-9758-881C05845A55</string>
+		</dict>
+		<key>B624B161-D5B8-4B34-BA14-F80190587388</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>B624B161-D5B8-4B34-BA14-F80190587388.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Clarify project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Clarify (iOS)</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Clarify (iOS)</string>
+			<key>timeStartedRecording</key>
+			<real>659734931.40402997</real>
+			<key>timeStoppedRecording</key>
+			<real>659734935.04197598</real>
+			<key>title</key>
+			<string>Build Clarify (iOS)</string>
+			<key>uniqueIdentifier</key>
+			<string>B624B161-D5B8-4B34-BA14-F80190587388</string>
+		</dict>
+		<key>CC6B6CC9-B0E9-4A68-B0BA-81D5670E4D08</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>CC6B6CC9-B0E9-4A68-B0BA-81D5670E4D08.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Clarify project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Clarify (iOS)</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Clarify (iOS)</string>
+			<key>timeStartedRecording</key>
+			<real>659736431.58271801</real>
+			<key>timeStoppedRecording</key>
+			<real>659736431.61066794</real>
+			<key>title</key>
+			<string>Build Clarify (iOS)</string>
+			<key>uniqueIdentifier</key>
+			<string>CC6B6CC9-B0E9-4A68-B0BA-81D5670E4D08</string>
+		</dict>
+		<key>E56F6571-E9B7-40E2-B47C-FC7E430881D4</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>E56F6571-E9B7-40E2-B47C-FC7E430881D4.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Clarify project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Clarify (iOS)</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Clarify (iOS)</string>
+			<key>timeStartedRecording</key>
+			<real>659735037.87835705</real>
+			<key>timeStoppedRecording</key>
+			<real>659735039.03913605</real>
+			<key>title</key>
+			<string>Build Clarify (iOS)</string>
+			<key>uniqueIdentifier</key>
+			<string>E56F6571-E9B7-40E2-B47C-FC7E430881D4</string>
+		</dict>
+		<key>EE10D18E-69B2-49C3-AD3B-370A1C4D8721</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>EE10D18E-69B2-49C3-AD3B-370A1C4D8721.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Clarify project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Clarify (iOS)</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Clarify (iOS)</string>
+			<key>timeStartedRecording</key>
+			<real>659736522.77821302</real>
+			<key>timeStoppedRecording</key>
+			<real>659736522.89658499</real>
+			<key>title</key>
+			<string>Build Clarify (iOS)</string>
+			<key>uniqueIdentifier</key>
+			<string>EE10D18E-69B2-49C3-AD3B-370A1C4D8721</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

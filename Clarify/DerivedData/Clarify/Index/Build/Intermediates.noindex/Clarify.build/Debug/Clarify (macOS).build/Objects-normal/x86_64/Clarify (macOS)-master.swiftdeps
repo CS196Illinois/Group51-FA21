@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.5.1 (swiftlang-1300.0.31.4 clang-1300.0.29.6)"
+options: "8c4cc6af5aa52971e01f674ffd838d93ae7f5fc1782ce61508382f6e0020383f"
+build_start_time: [1638043444, 106637001]
+build_end_time: [1638043453, 93631029]
+inputs:
+  "/Users/owner/Documents/GitHub/Group51-FA21/Clarify/Shared/AudioRecorder.swift": [1637992706, 240015506]
+  "/Users/owner/Documents/GitHub/Group51-FA21/Clarify/Shared/ClarifyApp.swift": [1638042884, 149271011]
+  "/Users/owner/Documents/GitHub/Group51-FA21/Clarify/Shared/ContentView.swift": [1638042836, 296287536]

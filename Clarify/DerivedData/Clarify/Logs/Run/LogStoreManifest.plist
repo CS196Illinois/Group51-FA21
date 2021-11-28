@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>075C9669-15D7-43F4-88AE-6675B8A58A21</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>075C9669-15D7-43F4-88AE-6675B8A58A21.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Clarify project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Clarify (iOS)</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run YourAppName</string>
+			<key>timeStartedRecording</key>
+			<real>659736522.90044999</real>
+			<key>timeStoppedRecording</key>
+			<real>659736522.96880996</real>
+			<key>title</key>
+			<string>Run YourAppName</string>
+			<key>uniqueIdentifier</key>
+			<string>075C9669-15D7-43F4-88AE-6675B8A58A21</string>
+		</dict>
+		<key>16BBC87C-24F0-4BC5-A88E-828DF46D560E</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>16BBC87C-24F0-4BC5-A88E-828DF46D560E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Clarify project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Clarify (iOS)</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run YourAppName</string>
+			<key>timeStartedRecording</key>
+			<real>659735687.84624696</real>
+			<key>timeStoppedRecording</key>
+			<real>659735688.14037001</real>
+			<key>title</key>
+			<string>Run YourAppName</string>
+			<key>uniqueIdentifier</key>
+			<string>16BBC87C-24F0-4BC5-A88E-828DF46D560E</string>
+		</dict>
+		<key>624F97C4-6DAD-41F3-9DAD-7C95C32612BF</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>624F97C4-6DAD-41F3-9DAD-7C95C32612BF.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Clarify project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Clarify (iOS)</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run Clarify</string>
+			<key>timeStartedRecording</key>
+			<real>659736243.23036206</real>
+			<key>timeStoppedRecording</key>
+			<real>659736243.50716698</real>
+			<key>title</key>
+			<string>Run Clarify</string>
+			<key>uniqueIdentifier</key>
+			<string>624F97C4-6DAD-41F3-9DAD-7C95C32612BF</string>
+		</dict>
+		<key>6FD27262-9ADD-4A5A-8931-DF6E80685D4D</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>6FD27262-9ADD-4A5A-8931-DF6E80685D4D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Clarify project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Clarify (iOS)</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run YourAppName</string>
+			<key>timeStartedRecording</key>
+			<real>659735817.77652705</real>
+			<key>timeStoppedRecording</key>
+			<real>659735818.00668097</real>
+			<key>title</key>
+			<string>Run YourAppName</string>
+			<key>uniqueIdentifier</key>
+			<string>6FD27262-9ADD-4A5A-8931-DF6E80685D4D</string>
+		</dict>
+		<key>73B9D376-15C0-4FFE-9CA9-CF96B7E92C6C</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>73B9D376-15C0-4FFE-9CA9-CF96B7E92C6C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Clarify project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Clarify (iOS)</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run YourAppName</string>
+			<key>timeStartedRecording</key>
+			<real>659736526.41176999</real>
+			<key>timeStoppedRecording</key>
+			<real>659736526.45914698</real>
+			<key>title</key>
+			<string>Run YourAppName</string>
+			<key>uniqueIdentifier</key>
+			<string>73B9D376-15C0-4FFE-9CA9-CF96B7E92C6C</string>
+		</dict>
+		<key>BFE86DE1-8DBD-489D-AE8F-AC12AB2C823B</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>BFE86DE1-8DBD-489D-AE8F-AC12AB2C823B.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Clarify project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Clarify (iOS)</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run YourAppName</string>
+			<key>timeStartedRecording</key>
+			<real>659735898.11671197</real>
+			<key>timeStoppedRecording</key>
+			<real>659735898.27195299</real>
+			<key>title</key>
+			<string>Run YourAppName</string>
+			<key>uniqueIdentifier</key>
+			<string>BFE86DE1-8DBD-489D-AE8F-AC12AB2C823B</string>
+		</dict>
+		<key>C7EDDA69-1FF3-4932-BEA1-98B1AE6240D2</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>C7EDDA69-1FF3-4932-BEA1-98B1AE6240D2.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Clarify project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Clarify (iOS)</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run YourAppName</string>
+			<key>timeStartedRecording</key>
+			<real>659688461.77559805</real>
+			<key>timeStoppedRecording</key>
+			<real>659688462.03180802</real>
+			<key>title</key>
+			<string>Run YourAppName</string>
+			<key>uniqueIdentifier</key>
+			<string>C7EDDA69-1FF3-4932-BEA1-98B1AE6240D2</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
