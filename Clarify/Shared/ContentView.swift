@@ -26,6 +26,7 @@ struct ContentView: View {
             }
             
             .navigationBarTitle("1. Record your audio ")
+            .navigationBarItems(trailing: EditButton())
         }
         
     }
