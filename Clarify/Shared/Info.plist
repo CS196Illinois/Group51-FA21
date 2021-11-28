@@ -16,10 +16,10 @@
 	<dict>
 		<key>UIImageRespectsSafeAreaInsets</key>
 		<true/>
-		<key>Logo</key>
-		<string></string>
+		<key>UIImageName</key>
+		<string>Logo</string>
 		<key>UIColorName</key>
-		<string></string>
+		<string>LaunchScreenColor</string>
 		<key>UILaunchScreen</key>
 		<dict/>
 	</dict>

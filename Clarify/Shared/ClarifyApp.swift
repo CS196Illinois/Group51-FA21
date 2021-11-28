@@ -12,7 +12,7 @@ import SwiftUI
 struct ClarifyApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(audioRecorder: AudioRecorder())
         }
     }
 }

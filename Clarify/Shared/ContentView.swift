@@ -10,20 +10,30 @@ import SwiftUI
 
 //need to separate launch screen from audio chooser
 //https://www.youtube.com/watch?v=NLIx0q3OixQ for audio choosing
+//core data
 
 struct ContentView: View {
     
+    @ObservedObject var audioRecorder: AudioRecorder
+    
     var body: some View {
         
-        Text("**Clarify**")
-            .padding()
-
+        NavigationView {
+            
+            VStack {
+                //Text("**Press to record**").padding()
+                AudioChooserView(audioRecorder: audioRecorder)
+            }
+            
+            .navigationBarTitle("1. Record your audio ")
+        }
+        
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(audioRecorder: AudioRecorder())
     }
 }
 

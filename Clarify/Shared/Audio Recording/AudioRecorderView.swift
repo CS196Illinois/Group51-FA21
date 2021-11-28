@@ -23,7 +23,7 @@ struct AudioChooserView: View {
         
         VStack {
             if audioRecorder.recording == false {
-                Button(action: {print("Start recording")}) {
+                Button(action: {self.audioRecorder.startRecording()}) {
                     Image(systemName: "circle.fill")
                         .resizable()
                         .aspectRatio(contentMode: .fill)
@@ -31,9 +31,14 @@ struct AudioChooserView: View {
                         .clipped()
                         .foregroundColor(.red)
                         .padding(.bottom, 40)
+                        .overlay(
+                                Circle()
+                                    .stroke(Color.black, lineWidth: 4)
+                                    .padding(.bottom, 40)
+                            )
                 }
             } else {
-                Button(action: {print("Stop recording)")}) {
+                Button(action: {self.audioRecorder.stopRecording()}) {
                     Image(systemName: "stop.fill")
                         .resizable()
                         .aspectRatio(contentMode: .fill)
@@ -41,6 +46,12 @@ struct AudioChooserView: View {
                         .clipped()
                         .foregroundColor(.red)
                         .padding(.bottom, 40)
+                        .overlay(
+                                RoundedRectangle(cornerRadius: 10)
+                                    .stroke(Color.black, lineWidth: 4)
+                                    .aspectRatio(1.0, contentMode: .fit)
+                                    .padding(.bottom, 40)
+                            )
                 }
             }
         }
