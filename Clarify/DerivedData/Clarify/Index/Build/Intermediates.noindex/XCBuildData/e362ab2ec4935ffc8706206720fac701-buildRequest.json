@@ -1,0 +1,68 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "ddd6c5ba60cc5f2c7f20a6ccdbb6b62ac96eb6c963659023f053953749dcc9b5"
+    },
+    {
+      "guid" : "ddd6c5ba60cc5f2c7f20a6ccdbb6b62a746fa930f980f1216c9f049f4e46a7ca"
+    },
+    {
+      "guid" : "ddd6c5ba60cc5f2c7f20a6ccdbb6b62a1affc1e858b861ad0b0416b143447d1f"
+    },
+    {
+      "guid" : "ddd6c5ba60cc5f2c7f20a6ccdbb6b62a0b8c39db2a339ebdcc28ebcfd4258c55"
+    }
+  ],
+  "containerPath" : "/Users/owner/Documents/GitHub/Group51-FA21/Clarify/Clarify.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator15.0",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/owner/Documents/GitHub/Group51-FA21/Clarify/DerivedData/Clarify/Index/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/owner/Documents/GitHub/Group51-FA21/Clarify/DerivedData/Clarify/Index/Build/Products",
+      "derivedDataPath" : "/Users/owner/Documents/GitHub/Group51-FA21/Clarify/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/owner/Documents/GitHub/Group51-FA21/Clarify/DerivedData/Clarify/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/owner/Documents/GitHub/Group51-FA21/Clarify/DerivedData/Clarify/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/owner/Documents/GitHub/Group51-FA21/Clarify/DerivedData/Clarify/Index/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "INDEX_ARENA_INFO_REGULAR_BUILD_PRODUCTS_DIR" : "/Users/owner/Documents/GitHub/Group51-FA21/Clarify/DerivedData/Clarify/Build/Products",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "utility",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

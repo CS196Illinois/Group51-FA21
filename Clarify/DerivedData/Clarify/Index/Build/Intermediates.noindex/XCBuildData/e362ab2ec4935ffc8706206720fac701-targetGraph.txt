@@ -1,0 +1,11 @@
+Target dependency graph (7 targets)
+Clarify (iOS) in Clarify, no dependencies
+Clarify (iOS) in Clarify, no dependencies
+Clarify (macOS) in Clarify, no dependencies
+Tests iOS in Clarify, depends on:
+Clarify (iOS) in Clarify (explicit)
+Tests iOS in Clarify, depends on:
+Clarify (iOS) in Clarify (explicit)
+Tests iOS in Clarify, no dependencies
+Tests macOS in Clarify, depends on:
+Clarify (macOS) in Clarify (explicit)
