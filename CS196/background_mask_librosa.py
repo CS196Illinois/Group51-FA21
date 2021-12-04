@@ -46,3 +46,5 @@ def backgroundOutput(audio, sampling_rate, input_direc):
     # writes to the given file path with the audio file at the given sampling rate
     sf.write("output/" + input_direc + "Foreground.wav", audio_foreground, sampling_rate)
     sf.write("output/" + input_direc + "Background.wav", audio_background, sampling_rate)
+
+    # return librosa.output.write_wav(audio_background, sampling_rate)
