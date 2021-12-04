@@ -36,6 +36,8 @@ train_size = int(0.8 * len(X))
 test_size = len(X) - train_size
 train_dataset, test_dataset = torch.utils.data.random_split(train, [train_size, test_size])
 train_loader = data_utils.DataLoader(train_dataset, batch_size=16, shuffle=True)
+test_loader = data_utils.DataLoader(test_dataset, batch_size=16, shuffle=True)
+
 
 # Creating the RNN class
 class RNN(nn.Module):
@@ -85,21 +87,18 @@ criterion = nn.CrossEntropyLoss()
 
 # Optimizers require the parameters to optimize and a learning rate
 optimizer = torch.optim.SGD(model.parameters(), lr=0.003)
-epochs = 20
+epochs = 50
 
 for e in range(epochs):
     running_loss = 0
     for audios, labels in train_loader:
         optimizer.zero_grad()
         output, hidden = model(audios)
-        loss = criterion(output, labels)
-
-        loss.backward(retain_graph = True)
-        optimizer.step()
-
-        running_loss += loss.item()
+        _, predicted = torch.max(outputs.data, 1)
+        total += labels.size(0)
+        correct += (predicted == labels).sum().item()
     else:
-        print(f"Training loss: {running_loss / len(train_loader)}")
+        print('Training Accuracy: %d %%' % (100 * correct / total))
 
 
 # Saving the model
@@ -110,12 +109,10 @@ torch.save(model.state_dict(), save_path)
 correct, total = 0, 0
 with torch.no_grad():
     # Iterate over the test data and generate predictions
-    for i, data in enumerate(test_dataset, 0):
+    for audios, labels in test_loader:
         # Get inputs
-        features, labels = data
-
-        # Generate outputs
-        outputs, hidden = model(features)
+        optimizer.zero_grad()
+        outputs, hidden = model(audios)
 
         # Set total and correct
         _, predicted = torch.max(outputs.data, 1)
@@ -123,5 +120,5 @@ with torch.no_grad():
         correct += (predicted == labels).sum().item()
 
     # Print accuracy
-    print('Accuracy: %d %%' % (100 * correct / total))
+    print('Testing Accuracy: %d %%' % (100 * correct / total))
 
