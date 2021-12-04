@@ -16,13 +16,26 @@ struct RecordingsList: View {
             ForEach(audioRecorder.recordings, id: \.createdAt) { recording in
             RecordingRow(audioURL: recording.fileURL)
             }
+            .onDelete(perform: delete)
         }
     }
+    
+    //allows the list to be edited
+    func delete(at offsets: IndexSet) {
+            
+            var urlsToDelete = [URL]()
+            for index in offsets {
+                urlsToDelete.append(audioRecorder.recordings[index].fileURL)
+            }
+        audioRecorder.deleteRecording(urlsToDelete: urlsToDelete)
+        }
 }
 
 struct RecordingRow: View {
     
     var audioURL: URL
+    
+    @ObservedObject var audioPlayer = AudioPlayer()
         
     var body: some View {
         HStack {
@@ -30,6 +43,21 @@ struct RecordingRow: View {
             Text("\(audioURL.lastPathComponent)")
             //push to left
             Spacer()
+            if audioPlayer.isPlaying == false {
+                Button(action: {
+                    print("Start playing audio")
+                }) {
+                    Image(systemName: "play.circle")
+                        .imageScale(.large)
+                }
+            } else {
+                Button(action: {
+                    print("Stop playing audio")
+                }) {
+                    Image(systemName: "stop.fill")
+                        .imageScale(.large)
+                }
+            }
         }
     }
 }

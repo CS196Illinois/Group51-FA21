@@ -17,7 +17,6 @@ struct AudioChooserView: View {
         
         VStack {
                     RecordingsList(audioRecorder: audioRecorder)
-                    //...
                 }
         
         
@@ -27,14 +26,16 @@ struct AudioChooserView: View {
                     Image(systemName: "circle.fill")
                         .resizable()
                         .aspectRatio(contentMode: .fill)
-                        .frame(width: 100, height: 100)
+                        .frame(width: 60, height: 60)
                         .clipped()
                         .foregroundColor(.red)
                         .padding(.bottom, 40)
+                        .padding(.top, 10)
                         .overlay(
                                 Circle()
-                                    .stroke(Color.black, lineWidth: 4)
+                                    .stroke(Color.black, lineWidth: 3)
                                     .padding(.bottom, 40)
+                                    .padding(.top, 10)
                             )
                 }
             } else {
@@ -42,15 +43,17 @@ struct AudioChooserView: View {
                     Image(systemName: "stop.fill")
                         .resizable()
                         .aspectRatio(contentMode: .fill)
-                        .frame(width: 100, height: 100)
+                        .frame(width: 60, height: 60)
                         .clipped()
                         .foregroundColor(.red)
                         .padding(.bottom, 40)
+                        .padding(.top, 10)
                         .overlay(
                                 RoundedRectangle(cornerRadius: 10)
-                                    .stroke(Color.black, lineWidth: 4)
+                                    .stroke(Color.black, lineWidth: 3)
                                     .aspectRatio(1.0, contentMode: .fit)
                                     .padding(.bottom, 40)
+                                    .padding(.top, 10)
                             )
                 }
             }
