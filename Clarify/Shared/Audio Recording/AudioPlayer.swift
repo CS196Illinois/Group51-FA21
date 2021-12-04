@@ -53,4 +53,22 @@ class AudioPlayer: NSObject, ObservableObject, AVAudioPlayerDelegate {
             }
         }
     
+    /*start and stop playback doesnt actually work
+     if audioPlayer.isPlaying == false {
+                     Button(action: {
+                         self.audioPlayer.startPlayback(audio: self.audioURL)
+                     }) {
+                         Image(systemName: "play.circle")
+                             .imageScale(.large)
+                     }
+                 } else {
+                     Button(action: {
+                         self.audioPlayer.stopPlayback()
+                     }) {
+                         Image(systemName: "stop.fill")
+                             .imageScale(.large)
+                     }
+                 }
+     */
+    
 }

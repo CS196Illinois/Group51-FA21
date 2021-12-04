@@ -17,7 +17,6 @@ struct AudioChooserView: View {
         
         VStack {
                     RecordingsList(audioRecorder: audioRecorder)
-                    //...
                 }
         
         

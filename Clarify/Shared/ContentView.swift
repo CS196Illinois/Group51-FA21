@@ -21,12 +21,15 @@ struct ContentView: View {
         NavigationView {
             
             VStack {
-                //Text("**Press to record**").padding()
                 AudioChooserView(audioRecorder: audioRecorder)
             }
             
             .navigationBarTitle("1. Record your audio ")
-            .navigationBarItems(trailing: EditButton())
+            .navigationBarItems(leading: HStack {
+                Button("Clarify") {
+                    print("Clarify")
+                }
+            }, trailing: EditButton())
         }
         
     }
