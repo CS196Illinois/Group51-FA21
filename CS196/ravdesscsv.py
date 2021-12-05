@@ -5,6 +5,7 @@ import torch.utils.data as data_utils
 
 # Getting data from features.csv and extracting features and labels
 df = pd.read_csv('/Users/balajisampath/Desktop/features.csv')
+print(df)
 features = df[['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19']]
 labels = df['labels']
 X = features
@@ -93,13 +94,12 @@ for e in range(epochs):
     running_loss = 0
     for audios, labels in train_loader:
         optimizer.zero_grad()
-        output, hidden = model(audios)
-        _, predicted = torch.max(outputs.data, 1)
-        total += labels.size(0)
-        correct += (predicted == labels).sum().item()
+        outputs, hidden = model(audios)
+        loss = criterion(outputs, labels)
+        loss.backward()
+        optimizer.step()
     else:
-        print('Training Accuracy: %d %%' % (100 * correct / total))
-
+        print(f"Training loss: {loss / len(train_loader)}")
 
 # Saving the model
 save_path = './mlp.pth'
