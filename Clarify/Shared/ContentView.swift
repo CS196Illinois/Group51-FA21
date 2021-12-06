@@ -40,4 +40,3 @@ struct ContentView_Previews: PreviewProvider {
         ContentView(audioRecorder: AudioRecorder())
     }
 }
-

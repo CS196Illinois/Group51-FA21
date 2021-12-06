@@ -11,7 +11,7 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>com.team51</string>
+	<string>Clarify</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
@@ -29,12 +29,6 @@
 	<true/>
 	<key>UILaunchScreen</key>
 	<dict>
-		<key>UIColorName</key>
-		<string>LaunchScreenColor</string>
-		<key>UIImageName</key>
-		<string>Logo</string>
-		<key>UIImageRespectsSafeAreaInsets</key>
-		<true/>
 		<key>UILaunchScreen</key>
 		<dict/>
 	</dict>
